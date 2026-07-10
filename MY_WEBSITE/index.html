@@ -1,366 +1,548 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/pesticide@1.3.1/css/pesticide.min.css">
-    <title>VIC- my portfolio</title>
-    <link rel="stylesheet" href="https://cloudflare.com">
-</head>
-<body>
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Header and navigation section-->
-   <header>
-       <nav>
-            <a href="index.html">
-              <strong>VIC</strong>
+     <title>ami- my portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com"/>
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/1f89633f0e.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+      <!--Header and navigation section-->
+        <header>
+            <nav>
+                <div>
+                    <a href="index.html" class="logo">
+                       <strong>ami<span>.</span>ke</strong>
+                    </a>
+                </div>
+
+                <ul>   
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="service.html">Service</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="skills.html">Skills</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                 <li><a href="contact.html">Contacts</a></li>
+                </ul>      
+            </nav>
+        </header> 
+
+        <main> 
+            <!--Home section-->
+            <section id="hero"> 
+                <div>
+                    <div class="left-side">
+                        <ul class="hero-social">   
+                           <li>
+                                <a href="https://www.facebook.com/">
+                                 <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/">
+                                 <i class="fa-brands fa-google"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.yahoo.com/">
+                                  <i class="fa-brands fa-yahoo"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.github.com/">
+                                  <i class="fa-brands fa-github"></i> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                  <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+
+                        </ul>    
+                 
+                        <div> 
+                            <h1>I am Jonathan Doe</h1>
+                            <p>
+                             i'm Jonathan, professional web developer with long time experience in this field
+                            </p>  
+
+                            <ul class="hero-buttons">    
+                                <li>
+                                 <a href="#" class="btn-portfolio">My Portfolio</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="btn-play">
+                                     <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </li>
+                           </ul>
+                        </div> 
+                    </div>
+                
+                    <div class="right-side">
+                      <img src="pics/img.jpg" alt="Photo of a lady" width="400"/>
+                    </div>
+                </div>  
+            </section>
+        
+            <!--Service section-->
+            <section id="service">
+                <div class="service-header"> 
+                    <p class="service-label">SERVICE</p>
+                    <h2>My Services</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                     industry. Lorem Ipsum standard dummy text.
+                    </p>
+                </div>
+
+                <div class="service-grid">
+                   <article class="service-card">
+                        <div class="service-icon"><i class="fa-brands fa-airbnb"></i></div>  
+                        <div class="service-text">
+                            <h3> Web Development </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                             industry.Lorem Ipsum is simply dummy.
+                            </p>
+                        </div>  
+                    </article>
+
+                    <article class="service-card">
+                       <div class="service-icon"><i class="fa-regular fa-camera"></i></div>
+                        <div class="service-text">
+                            <h3>Photography</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                             industry.Lorem Ipsum is simply dummy.
+                            </p>   
+                        </div> 
+                    </article>
+            
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="service-text">
+                            <h3>Web Design</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                              industry.Lorem Ipsum is simply dummy.
+                            </p>
+                        </div>    
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-brands fa-app-store"></i></div>
+                        <div class="service-text">
+                            <h3> App Developing </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                               industry.Lorem Ipsum is simply dummy.
+                            </p>
+                        </div>    
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-brands fa-rev"></i></div>
+                        <div class="service-text">
+                            <h3> Video Editing </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                              industry.Lorem Ipsum is simply dummy.
+                            </p>  
+                        </div>   
+                   </article>
+
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-brands fa-accessible-icon"></i></div>
+                        <div class="service-text">
+                            <h3>SEO Expart</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                              industry.Lorem Ipsum is simply dummy.
+                            </p>
+                        </div>       
+                    </article>
+                </div>
+            </section>
+
+            <!--About section-->
+            <section id="about">
+                <div>
+                    <div class="about-header">
+                        <h2> About Me </h2>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                           industry.Lorem Ipsum is simply dummy.
+                        </p>
+                    </div>
+
+                    <div class="about-content">
+
+                        <div class="about-left-side">
+                         <img src="pics/male.jpg" alt="a male" width="400" height="500">
+                        </div>
+                    
+
+                       
+                        <div class="about-right-side"> 
+                            <h3> Hi There </h3>
+                            <p>
+                             Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                             industry. Lorem Ipsum standard dummy text.
+                            </p>
+                            
+                            <div>
+                                <dl class="description-content"> 
+                                    <div class="description-left">
+                                       <dt class="description-label"> Name: </dt> <dd> Bisong Victor </dd>
+                                       <dt class="description-label"> Email Address: </dt> <dd> Bisongv@gmail.com </dd>
+                                    </div>
+
+                                    <div class="description-right">
+                                       <dt class="description-label"> Phone: </dt> <dd> 09097565011 </dd>
+                                       <dt class="description-label"> Facebook: </dt> <dd> Bisongv </dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+         
+          <!--skill section-->
+            <section id="skills">
+                <p>I"m expert on</p>
+                <h2> Let's Work Toghether </h2>  
+                <p> Phasellus accumsan scelerisque dolor, quis mattis justo <br>
+                 bibendum non. Nulla sollicitudin turpis in enim elementum <br>
+                 varius. Vestibulum ante ipsum primis in faucibus orci <br> 
+                 luctus et ultrices posuere cubilia Curae.
+                </p>  
+                <a href="#"> Hire Me Now </a>
+
+                <div>
+                    <ul>
+                        <li>
+                          <span> Node Js </span>
+                          <progress value="88%" max="100%">88%</progress>
+                          <span> 88% </span>
+                        </li>
+
+                        <li> 
+                         <span> Python </span>
+                         <progress value="81%" max="100%">81%</progress>
+                         <span>81%</span>
+                        </li>
+
+                        <li> 
+                          <span> Laravel </span>
+                          <progress value="70%" max="100%">70%</progress>
+                          <span>70%</span>
+                        </li>
+
+                        <li> 
+                          <span> SEO </span>
+                          <progress value="90%" max="100%">90%</progress>
+                          <span>90%</span>
+                        </li>
+                    </ul>
+                </div> 
+            </section>
+        
+            <!--Work/portfolio section-->
+            <section id="portfolio">
+                <div class="portfolio-header">
+                    <p class="section-label">PORTFOLIO</p>
+                    <h2>Portfolio Showcase</h2>
+                    <p>
+                      We’re a WordPress Theme Development company . With more than <br>
+                      ten years of knowledge and expertise.
+                    </p>
+                </div>
+
+                <div class="portfolio-content">
+                    <ul>
+                      <li><a href="#">All Works</a></li>
+                      <li><a href="#">Art Direction</a></li>
+                      <li><a href="#">Branding</a></li>
+                      <li><a href="#">Design</a></li>
+                      <li><a href="#">Web</a></li>
+                    </ul>
+                 
+                    <div>
+                        <figure class="portfolio-item">
+                            <a href="#">
+                             <img src="pics/work.jpg" alt="work" width="300" height="300">  
+                            </a>
+
+                            <figcaption>
+                              <p>ART DIRECTION</p>
+                              <h3>Works</h3>
+                            </figcaption>
+                        </figure>
+                    
+                        <figue class="portfolio-item">
+                            <a href="#">
+                              <img src="pics/time.jpg" alt="time" width="300" height="500">
+                            </a>
+
+                            <figcaption>
+                             <p>BRANCHING</p>
+                             <h3>In Time</h3>
+                            </figcaption>
+                        </figure> 
+
+                       <figure class="portfolio-item">
+                            <a href="#">
+                              <img src="pics/mockup.jpg" alt="mockup" width="300" height="315">
+                            </a>
+
+                           <figcaption>
+                               <p>DESIGN</p>
+                               <h3>Mockup</h3>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="portfolio-item">
+                            <a href="#">
+                             <img src="pics/treasure.jpg" alt="treasure" width="300" height="200">
+                            </a>
+
+                            <figcaption>
+                              <p>WEB</p>
+                              <h3>Treasure</h3>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="portfolio-item">
+                            <a href="#">
+                              <img src="pics/pencil.jpg" alt="pencil" width="300" height="500">
+                            </a>
+
+                            <figcaption>
+                              <p>DESIGN</p>
+                              <h3>Pencil</h3>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="portfolio-item">
+                            <a href="#">
+                             <img src="pics/handcraft.jpg" alt="handcraft" width="300" height="600">
+                            </a>
+
+                            <figcaption>
+                              <p>BRANDING</p>
+                              <h3>Handcraft</h3>
+                            </figcaption>
+                        </figure>
+
+                      <figure class="portfolio-item">
+                            <a href="#">
+                             <img src="pics/note.jpg" alt="note" width="300" height="500">
+                            </a>
+
+                            <figcaption>
+                              <p>ART DIRECTION</p>
+                              <h3>Daily note</h3>
+                            </figcaption> 
+                        </figure> 
+
+                        <figure class="portfolio-item">
+                            <a href="#">
+                             <img src="pics/focus.jpg" alt="focus" width="300" height="200">
+                            </a>
+                        
+                            <figcaption>
+                             <p>WEB</p>
+                             <h3>Focus</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+         
+            <!--Pricing section-->
+            <section id="pricing section">
+                <div pricing-header>
+                    <h5>CHOOSE A PLAN</h5>
+                    <h2>Pricing Plan</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and <br>
+                      typesetting industry. Lorem Ipsum standard dummy <br>
+                      text.
+                    </p>
+                </div>
+
+                <div class="pricing-content">
+                    <article>
+                        <h3>Basic</h3>
+                        <h2>$50 <small>/month</small></h2>
+                     
+                        <ul>
+                         <li>5GB Storage Space<hr>
+                         <li>20GB Monthly Banding<hr>
+                         <li>My SQL Databases<hr>
+                         <li>100 Email Account<hr>
+                         <li>100 Free Domain Names<hr>
+                        </ul>
+
+                        <a href="#">Purchase</a>
+                    </article>
+
+                    <article>
+                        <h3>Standard</h3>
+                        <h2>$80 <small>/month</small></h2>
+
+                        <ul>
+                          <li>5GB Storage Space<hr>
+                          <li>20GB Monthly Banding<hr>
+                          <li>My SQL Databases<hr>
+                          <li>100 Email Account<hr>
+                          <li>100 Free Domain Names<hr>
+                        </ul>
+
+                        <a href="#">Purchase</a>
+                    </article>
+
+                    <article>
+                       <h3>Premium</h3>
+                       <h2>$160 <small>/month</small></h2>
+
+                        <ul>
+                          <li>5GB Storage Space<hr>
+                          <li>20GB Monthly Banding<hr>
+                          <li>My SQL Databases<hr>
+                          <li>100 Email Account<hr>
+                          <li>100 Free Domain Names<hr>
+                        </ul>
+
+                        <a href="#">Purchase</a>
+                    </article>
+                </div>
+            </section>
+                
+            <!--Testimonial section-->
+            <section id="testimonials">
+                <div class="testimonial-content">
+                    <div class="testimonial-left">
+                        <h5>OUR TESTIMONIALS</h5>
+                        <h2>Happy Clients Says</h2>
+                        <p>Phasellus accumsan scelerisque dolor, quis mattis <br>
+                         justo  varius. Vestibulum ante ipsum primis in <br>
+                         faucibus orci luctus et ultrices posuere cubilia <br>
+                         curae 
+                        </p>
+
+                        <p>
+                          enim elementum varius. Vestibulum ante ipsum <br>
+                          primis in faucibus orci luctus et ultrices posuere
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                 
+                    <div class="testimonial-right">
+                        <p>
+                         "In promotion and of advertising <br>
+                          testimonial show consiss of a <br>
+                          person's written orsoken statement <br>
+                          extollig the virtue"
+                        </p>
+                    </div> 
+                </div>
+            </section>
+           
+            <!--Contact section-->
+            <section>
+                <h5>LATEST POST</h5>
+                <h2>Latest Blog</h2>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and <br>
+                  typesetting industry. Lorem Ipsum standard dummy <br>
+                  text.
+                </p>
+            </section>
+
+          <!--Contact section-->
+            <section id="contact">
+                <div>
+                    <div class="contact-header">
+                        <p>HAVE ANY QUERY?</p>
+                        <h2>Contact Me</h2>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and <br>
+                          typesetting industry.Lorem Ipsum standard dummy text.
+                        </p>
+                    </div>
+
+                    <div class="contact-content">
+                        <div>
+                            <span>Locate us</span>
+                            <p>
+                                King Street, Melbourne Victoria
+                            </p>
+                        </div>
+
+                        <div>
+                            <span>Give us a call</span>
+                            <p>
+                              Office: +01-2345-6789
+                            </p>
+                        </div>
+
+                        <div>
+                            <span>Get in online</span>
+                            <p>Contact@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </body> 
+
+    <footer>
+        <div class="footer-content">
+            <a href="index.html" class="logo">
+              <strong>ami <span>.</span> ke</strong>
             </a>
 
-            <ul>   
-              <li><a href="index.html">Home</a></li>
-              <li><a href="service.html">Services</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="skills.html">Skills</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact.html">Contacts</a></li>
-            </ul>  
-       </nav>
-    </header> 
-
-    <main> 
-        <!--Home section-->
-       <section id="hero"> 
-            <div class="text"> 
-             <h1>I am Bisong Vic</h1>
-             <p>I'm Vic,i can structure websites using HTML.</p>
-              <ul>    
-                <li><a href="#">My Portfolio</a></li>
-                <li><a href="#">Watch Youtube</a></li>
-              </ul>
-            </div>
-
-            <div class="image">
-                <img src="pics/vic.jpg.png" alt="Photo of Bisong Vic" width="600" height="700">
-            </div>
-        </section>
-        
-       <!--Service section-->
-        <section id="service">
-            <h5>SERVICE</h5>
-            <h1> My Services </h1>
-            <p>Lorem ipsum is simply dummy text of the printing and typesetting <br>
-              industry.Lorem ipsum is simply dummy.
+            <p class="footer-text">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+             tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim <br>
+             veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea <br>
+             commodo consequat. 
             </p>
 
-            <article>
-               <h3> Web Development </h3>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-                 industry.Lorem Ipsum is simply dummy.
-                </p>
-            </article>
+            <ul classs="footer-social">
+                <li>
+                    <a href="https://www.facebook.com">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
 
-            <article>
-                <h3> Photography </h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-                  industry.Lorem Ipsum is simply dummy.
-                </p>
-            </article>
-            
-            <article>
-                <h3> Web Design </h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-                  industry.Lorem Ipsum is simply dummy.
-                </p>
-            </article>
+                <li>
+                    <a href="https://twitter.com">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
 
-            <article>
-                <h3> App Developing </h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-                  industry.Lorem Ipsum is simply dummy.
-                </p>
-            </article>
+                <li>
+                    <a href="https://www.instagram.com">
+                   <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
 
-            <article>
-                <h3> Video Editing </h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-                  industry.Lorem Ipsum is simply dummy.
-                </p>
-            </article>
+                <li>
+                    <a href="https://uk.pinterest.com">
+                       <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
-            <article>
-                <h3> SEO Expart </h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-                    industry.Lorem Ipsum is simply dummy.
-                </p>
-            </article>
-        </section>
-
-        <!--About section-->
-        <section id="about me">
-            <h1> About Me </h1>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-                industry.Lorem Ipsum is simply dummy.
-            </p>
-
-            <div>   
-                <img src="pics/myphoto.jpg" alt="my picture" width="400" height="500">
-            
-                <div>
-                 <h3> Hi There </h3>
-                    <p> I am a web developer learning HTML.My goal is to become a <br>
-                     full-stack web developer and build beautiful and responsive websites. 
-                    </p>
-                   <dl>
-                      <dt> Name: </dt> <dd> Bisong Victor </dd>
-                      <dt> Phone: </dt> <dd> 09097565011 </dd>
-                      <dt> Email Address: </dt> <dd> Bisongv@gmail.com </dd>
-                    </dl>
-                </div>
-            </div>
-        </section>
-         
-        <!--skill section-->
-        <section id="skills">
-            <p>I"m expert on</p>
-            <h1> Let's Work Toghether </h1>  
-            <p> Phasellus accumsan scelerisque dolor, quis mattis justo <br>
-             bibendum non. Nulla sollicitudin turpis in enim elementum <br>
-             varius. Vestibulum ante ipsum primis in faucibus orci <br> 
-             luctus et ultrices posuere cubilia Curae.
-            </p>  
-            <a href="#"> Hire Me Now </a>
-
-            <div>
-              <ul>
-                    <li>
-                     <span> Node Js </span>
-                     <progress value="88" max="100">88%</progress>
-                     <span> 88% </span>
-                    </li>
-
-                    <li> 
-                     <span> Python </span>
-                     <progress value="81" max="100%">81%</progress>
-                     <span>81%</span>
-                    </li>
-
-                   <li> 
-                     <span> Laravel </span>
-                     <progress value-="70%" max="100%">70%</progress>
-                     <span>70%</span>
-                   </li>
-
-                    <li> 
-                     <span> SEO </span>
-                     <progress value="90%" max="100">90%</progress>
-                     <span>90%</span>
-                    </li>
-                </ul>
-            </div> 
-        </section>
-        
-        <!--My-portfolio section-->
-        <section id="portfolio">
-            <h1>Portfolio Showcase</h1>
-            <p>
-               We’re a WordPress Theme Development company . With more than <br>
-               ten years of knowledge and expertise.
-            </p>
-
-            <div>
-                <ul>
-                    <li><a href="#">All Works</a></li>
-                    <li><a href="#">Art Direction</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Web</a></li>
-                </ul>
-                 
-                <div>
-                    <figure>
-                        <a href="#">
-                          <img src="pics/myphoto2.png" alt="Victor" width="300" height="300">  
-                       </a>
-
-                        <figcaption>
-                         <p>ART DIRECTION</p>
-                         <h3>Handsome</h3>
-                        </figcaption>
-                    </figure>
-                    
-                    <figue>
-                        <a href="#">
-                          <img src="pics/myphoto3.png" alt="Victor" width="300" height="500">
-                        </a>
-
-                        <figcaption>
-                            <p>BRANCHING</p>
-                            <h3>courageous</h3>
-                        </figcaption>
-                    </figure> 
-
-                    <figure>
-                        <a href="#">
-                            <img src="pics/myphoto4.png" alt="Victor" width="300" height="315">
-                        </a>
-
-                        <figcaption>
-                            <p>DESIGN</p>
-                            <h3>focused</h3>
-                        </figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href="#">
-                            <img src="pics/myphoto5.png" alt="Victor" width="300" height="200">
-                        </a>
-
-                        <figcaption>
-                            <p>WEB</p>
-                            <h3>Godfearing</h3>
-                        </figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href="#">
-                            <img src="pics/myphoto6.png" alt="Victor" width="300" height="500">
-                        </a>
-
-                        <figcaption>
-                            <p>DESIGN</p>
-                            <h3>Tall</h3>
-                        </figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href="#">
-                            <img src="pics/myphoto7.png" alt="Victor" width="300" height="600">
-                        </a>
-
-                        <figcaption>
-                            <p>BRANDING</p>
-                            <h3>Dark</h3>
-                        </figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href="#">
-                           <img src="pics/myphoto8.png" alt="Victor" width="300" height="500">
-                        </a>
-
-                        <figcaption>
-                            <p>ART DIRECTION</p>
-                            <h3>Calm</h3>
-                        </figcaption> 
-                    </figure> 
-
-                    <figure>
-                        <a href="#">
-                         <img src="pics/myphoto9.png" alt="Victor" width="300" height="200">
-                        </a>
-                        
-                        <figcaption>
-                            <p>WEB</p>
-                            <h3>Smart</h3>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-        </section>
-         
-        <!--Pricing section-->
-        <section id="pricing section">
-            <h5>CHOOSE A PLAN</h5>
-            <h1>Pricing Plan</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and <br>
-              typesetting industry. Lorem Ipsum standard dummy <br>
-              text.
-            </p>
-
-            <div>
-                <article>
-                    <h3>Basic</h3>
-                    <h2>$50 <small>/month</small></h2>
-                     
-                    <ul>
-                        <li>5GB Storage Space<hr>
-                        <li>20GB Monthly Banding<hr>
-                        <li>My SQL Databases<hr>
-                        <li>100 Email Account<hr>
-                        <li>100 Free Domain Names<hr>
-                    </ul>
-
-                    <a href="#">Purchase</a>
-                </article>
-
-                <article>
-                    <h3>Standard</h3>
-                    <h2>$80 <small>/month</small></h2>
-
-                    <ul>
-                        <li>5GB Storage Space<hr>
-                        <li>20GB Monthly Banding<hr>
-                        <li>My SQL Databases<hr>
-                        <li>100 Email Account<hr>
-                        <li>100 Free Domain Names<hr>
-                    </ul>
-
-                    <a href="#">Purchase</a>
-                </article>
-
-                <article>
-                    <h3>Premium</h3>
-                    <h2>$160 <small>/month</small></h2>
-
-                    <ul>
-                        <li>5GB Storage Space<hr>
-                        <li>20GB Monthly Banding<hr>
-                        <li>My SQL Databases<hr>
-                        <li>100 Email Account<hr>
-                        <li>100 Free Domain Names<hr>
-                    </ul>
-
-                    <a href="#">Purchase</a>
-                </article>
-            </div>
-        </section>
-
-        <section id="testimonials">
-            <h5>OUR TESTIMONIALS</h5>
-            <h1>Happy Clients Says</h1>
-            <p>Phasellus accumsan scelerisque dolor, quis mattis <br>
-               justo  varius. Vestibulum ante ipsum primis in <br>
-               faucibus orci luctus et ultrices posuere cubilia <br>
-               curae <br>
-               enim elementum varius. Vestibulum ante ipsum <br>
-               primis in faucibus orci luctus et ultrices posuere
-            </p>
-            <a href="#">Learn More</a>
-
-            <div>
-               "
-                <div>
-                    <p>"In promotion and of advertising <br>
-                        testimonial show consiss of a <br>
-                        person's written orsoken statement <br>
-                        extollig the virtue"
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h5>LATEST POST</h5>
-            <h1>Latest Blog</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and <br>
-              typesetting industry. Lorem Ipsum standard dummy <br>
-              text.
-            </p>
-        </section>
-       
-    </main>
-
-</body>     
+        <div class="footer-bottom">
+           <p> Copyright &copy; 2026 <a href="#">ami.ke</a> All Rights Reserved</p>
+        </div>
+    </footer>
+</html>    

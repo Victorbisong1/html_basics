@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin:0%;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "poppins",arial,sans-serif;
+    color: #dfdfdf;
+    line-height: 1.6;
+    background: #1f2235;
+}
+
+h1, h2, h3, h4 {
+    color: #ffff;
+    margin-bottom: 25px;
+}
+
+h1, h2 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3{
+   font-size: 28px;
+   font-weight: 500;
+}
+ 
+/* images never overflow thier box*/
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+   text-decoration: none;
+   color: #ff4a57;
+}
+
+section{
+   padding: 100px 15px; 
+}
+
+/* for the header and navs */
+header{
+    background: #1f2235;
+    padding: 25px 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+/* for the navs elements inside the header */
+header nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1170px;
+    margin:0 auto;
+}
+/* for the header logo */
+.logo strong {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+/* for the dot in the header*/
+.logo span {
+    color:#ff4a57;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+header nav ul a {
+    color:#ffffff;
+    font-size: 18px;
+    font-weight:500;
+}
+
+header nav ul a:hover {
+    color:#ff4a57;
+}
+
+
+/*Hero section */
+#hero {
+    background-color: #23263a;
+    background-image: url("pics/img-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+/* centers the whole row on the page*/
+#hero > div {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.left-side {
+    flex: 1;
+    padding-bottom:60px;
+}
+
+/*--Social icons  */
+.hero-social {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-bottom:40px;
+}
+
+.hero-social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #ff4a57; /* the red ring */
+    border-radius: 50%;  /* a circle */
+}
+
+.hero-social a:hover {
+    background: #ff4a57;
+}
+
+#hero h1 {
+    font-size: 62px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#hero p { 
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  margin-top: 35px;
+}
+
+.btn-portfolio {
+   display: inline-block;
+   border: 1px solid #ff4a57;
+   color: #ffffff;
+   padding: 14px 35px;
+   border-radius: 100px;
+}
+
+.btn-portfolio:hover {
+    background:#ff4a57;
+}
+
+.btn-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 45px;
+    background:#ff4a57;
+    color:#ffffff;
+    border-radius:100px;
+}
+
+/* service-section */
+
+.service-header {
+    text-align: center;
+    max-width:600px;
+    margin: 0 auto 50px auto;
+}
+
+.service-label {
+    color: #ff4a57;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.service-header::after {
+    content: ""; 
+    display: block;
+    width: 40px; 
+    height: 2px;
+    background: #ff4a57; 
+    margin: 25px auto 0;
+} 
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 25px; 
+    justify-content: center; 
+}
+
+.service-card {
+    background:  #23263a; 
+    padding: 35px 30px;
+    border-radius: 10px;
+    width: 340px;
+}   
+
+.service-card:hover {
+   background:#ff4a57;
+}
+
+.service-icon { 
+    font-size: 34px; 
+    color: #ff4a57;
+}   
+
+/*About section */
+
+#about {
+    background-color: #23263a;
+}
+
+.about-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+}
+
+.about-content {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+
+.about-right-side{
+   padding: 0px auto;
+}
+
+.about-left-side {
+    margin: 100px;
+}
+
+     
+#about h3 {
+    font-size: solid 38px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+#about p{
+    margin-bottom: 30px;
+    font-size: solid 38px;
+}
+
+
+.description-content{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 90px;
+   
+}
+
+.description-label {
+    color: #ff4a57;
+}
+
+
+
+
+
+
